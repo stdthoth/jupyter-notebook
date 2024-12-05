@@ -1,0 +1,15 @@
+{
+    "name": "Jupyter Notebook DevContainer",
+    "dockerFile": "Dockerfile",  
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",      
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "forwardPorts": [8888],  
+    "remoteUser": "vscode"   
+  }
+  
