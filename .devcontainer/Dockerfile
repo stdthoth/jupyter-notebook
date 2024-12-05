@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y \
     libyaml-dev \
     && apt-get clean
 
-RUN pip3 install jupyterlab numpy pandas matplotlib seaborn scikit-learn
+RUN pip install jupyterlab numpy pandas matplotlib seaborn scikit-learn
 
 EXPOSE 8888
 
